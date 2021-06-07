@@ -1,10 +1,12 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(returnInt(6));
+        System.out.println("Inc: " + increase(6) + " Dec: " + decrease(6));
     }
 
-    public static int returnInt(int x) {
+    public static int increase(int x) {
         return x + 1;
     }
+
+    public static int decrease(int y) { return y - 1;}
 }
