@@ -10,9 +10,9 @@ public class Main {
     }
 
     public static int increase(int x) {
-        return x + 1;
+        return ++x;
     }
 
-    public static int decrease(int y) { return y - 1;}
+    public static int decrease(int y) { return --y;}
 
 }
